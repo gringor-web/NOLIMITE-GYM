@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- ===================== SEO: PRIMARY ===================== -->
+  <!-- TODO cliente: personaliza título y descripción (≤60 / ≤155 caracteres) -->
+  <title>LÍMITE GYM | Gimnasio Premium y Entrenamiento Personal</title>
+  <meta name="description" content="Centro de entrenamiento premium con programas de fuerza, hipertrofia, HIIT y entrenamiento personal. Tu mejor versión empieza hoy. Reserva por WhatsApp." />
+  <meta name="keywords" content="gimnasio, entrenamiento personal, fitness, fuerza, hipertrofia, HIIT, crossfit, gimnasio premium" />
+  <meta name="author" content="LÍMITE GYM" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+
+  <!-- TODO cliente: dominio definitivo -->
+  <link rel="canonical" href="https://www.limitegym.es/" />
+
+  <!-- ===================== THEME / PWA ===================== -->
+  <meta name="theme-color" content="#0A0A0A" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="application-name" content="LÍMITE GYM" />
+  <meta name="apple-mobile-web-app-title" content="LÍMITE GYM" />
+
+  <!-- ===================== OPEN GRAPH ===================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="LÍMITE GYM" />
+  <meta property="og:title" content="LÍMITE GYM | Gimnasio Premium y Entrenamiento Personal" />
+  <meta property="og:description" content="Programas de fuerza, hipertrofia, HIIT y entrenamiento personal. Tu mejor versión empieza hoy." />
+  <meta property="og:url" content="https://www.limitegym.es/" />
+  <!-- TODO cliente: imagen social 1200x630 -->
+  <meta property="og:image" content="https://www.limitegym.es/assets/images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Interior del gimnasio LÍMITE GYM con zona de pesas libres" />
+
+  <!-- ===================== TWITTER CARD ===================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LÍMITE GYM | Gimnasio Premium y Entrenamiento Personal" />
+  <meta name="twitter:description" content="Programas de fuerza, hipertrofia, HIIT y entrenamiento personal. Tu mejor versión empieza hoy." />
+  <meta name="twitter:image" content="https://www.limitegym.es/assets/images/og-image.jpg" />
+  <meta name="twitter:image:alt" content="Interior del gimnasio LÍMITE GYM con zona de pesas libres" />
+
+  <!-- ===================== FAVICONS / ICONS ===================== -->
+  <link rel="icon" href="assets/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+  <!-- ===================== PERFORMANCE HINTS ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Precarga del vídeo del hero (above-the-fold) -->
+  <link rel="preload" as="video" href="assets/video/hero.mp4" type="video/mp4" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ===================== STRUCTURED DATA (JSON-LD) ===================== -->
+  <!-- TODO cliente: reemplaza todos los valores de ejemplo por los reales -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ExerciseGym"],
+    "@id": "https://www.limitegym.es/#gym",
+    "name": "LÍMITE GYM",
+    "description": "Centro de entrenamiento premium con programas de fuerza, hipertrofia, HIIT y entrenamiento personal.",
+    "slogan": "Tu mejor versión empieza hoy.",
+    "url": "https://www.limitegym.es/",
+    "logo": "https://www.limitegym.es/assets/logo/logo.jpg",
+    "image": "https://www.limitegym.es/assets/images/og-image.jpg",
+    "telephone": "+34 600 000 000",
+    "email": "hola@limitegym.es",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Efectivo, Tarjeta, Domiciliación",
+    "areaServed": "Madrid",
+    "hasMap": "https://www.google.com/maps?q=Calle%20Ejemplo%20123,%20Madrid",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle de Ejemplo 123",
+      "addressLocality": "Madrid",
+      "addressRegion": "Madrid",
+      "postalCode": "28000",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "40.4168",
+      "longitude": "-3.7038"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "06:30",
+        "closes": "23:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "21:00"
+      }
+    ],
+    "sameAs": [
+      "https://instagram.com/limitegym",
+      "https://facebook.com/limitegym"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Salto al contenido (accesibilidad / teclado) -->
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- ============================= HEADER ============================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <!-- Logo (reemplazable sin tocar el layout) -->
+      <a class="brand" href="#inicio" aria-label="LÍMITE GYM — Ir al inicio">
+        <img
+          class="brand-logo"
+          src="assets/logo/logo.jpg"
+          alt="Logotipo de LÍMITE GYM"
+          width="160"
+          height="48"
+          decoding="async"
+          fetchpriority="high"
+        />
+      </a>
+
+      <!-- Navegación + redes (colapsable en móvil) -->
+      <div class="nav-collapse" id="navCollapse">
+        <nav class="primary-nav" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li><a href="#programas">Programas</a></li>
+            <li><a href="#instalaciones">Instalaciones</a></li>
+            <li><a href="#entrenadores">Entrenadores</a></li>
+            <li><a href="#tarifas">Tarifas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-social" aria-label="Redes sociales">
+          <a class="icon-link" href="https://instagram.com/limitegym" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+              <path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 2.8h10A4.2 4.2 0 0 1 21.2 7v10A4.2 4.2 0 0 1 17 21.2H7A4.2 4.2 0 0 1 2.8 17V7A4.2 4.2 0 0 1 7 2.8Z"/>
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/>
+            </svg>
+          </a>
+          <a class="icon-link" href="https://facebook.com/limitegym" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Facebook">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M14 9V7.2c0-.83.2-1.25 1.45-1.25H17V3.14C16.6 3.1 15.72 3 14.7 3 12.42 3 10.9 4.38 10.9 6.9V9H8.4v3h2.5v9H14v-9h2.5l.4-3H14Z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Acciones siempre visibles: WhatsApp (CTA primario) + menú -->
+      <div class="header-right">
+        <a
+          class="btn-whatsapp"
+          href="https://wa.me/34600000000"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contactar por WhatsApp"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.02ZM12.05 20.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01a.9.9 0 0 0-.65.31c-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/>
+          </svg>
+          <span class="btn-whatsapp-text">WhatsApp</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú de navegación"
+          aria-expanded="false"
+          aria-controls="navCollapse"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-headline" id="hero-title">
+          <span class="visually-hidden">Sin Límites</span>
+          <span class="hero-mask-wrap" aria-hidden="true">
+            <!-- Capa 1 (respaldo): texto con degradado + definición de la máscara.
+                 Visible a través de las letras si el vídeo no carga. -->
+            <svg class="hero-art" viewBox="0 0 1000 380" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#ff3551" />
+                  <stop offset="50%" stop-color="#E4002B" />
+                  <stop offset="100%" stop-color="#9a9a9a" />
+                </linearGradient>
+                <mask id="heroMask">
+                  <rect x="0" y="0" width="1000" height="380" fill="#fff" />
+                  <text class="hero-mask-text" x="500" y="190" text-anchor="middle" dominant-baseline="central" textLength="940" lengthAdjust="spacingAndGlyphs" fill="#000">SIN LÍMITES</text>
+                </mask>
+              </defs>
+              <text class="hero-mask-text" x="500" y="190" text-anchor="middle" dominant-baseline="central" textLength="940" lengthAdjust="spacingAndGlyphs" fill="url(#heroGrad)">SIN LÍMITES</text>
+            </svg>
+
+            <!-- Capa 2: vídeo (autoplay/muted/loop/playsinline) -->
+            <video class="hero-video" autoplay muted loop playsinline preload="auto">
+              <source src="assets/video/hero.mp4" type="video/mp4" />
+            </video>
+
+            <!-- Capa 3: recorte. Rectángulo con las letras "agujereadas":
+                 el vídeo solo se ve dentro del texto; el resto coincide con el fondo. -->
+            <svg class="hero-art hero-art--cut" viewBox="0 0 1000 380" preserveAspectRatio="xMidYMid meet">
+              <rect x="0" y="0" width="1000" height="380" fill="#0A0A0A" mask="url(#heroMask)" />
+            </svg>
+          </span>
+        </h1>
+
+        <p class="hero-subtitle">Tu mejor versión empieza hoy.</p>
+
+        <a class="hero-cta" href="#programas" data-scroll-target="#programas">Empieza ahora</a>
+      </div>
+
+      <a class="scroll-indicator" href="#programas" data-scroll-target="#programas" aria-label="Desplázate para descubrir más">
+        <span class="scroll-indicator-text">Descubre</span>
+        <span class="scroll-indicator-mouse" aria-hidden="true"><span class="scroll-indicator-wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ========================= SOBRE NOSOTROS ========================= -->
+    <section class="section section--alt" id="sobre-nosotros" aria-labelledby="sobre-title">
+      <div class="container">
+        <div class="split">
+          <div class="split-media reveal">
+            <figure class="media-frame about-media">
+              <img
+                src="assets/images/sobre-nosotros.jpg"
+                alt="Persona entrenando con concentración y disciplina en un gimnasio premium de ambiente oscuro"
+                width="720" height="540" loading="lazy" decoding="async"
+              />
+            </figure>
+          </div>
+
+          <div class="split-body reveal">
+            <p class="eyebrow">Quiénes somos</p>
+            <h2 class="section-title" id="sobre-title">Sobre Nosotros</h2>
+            <p class="about-headline">Tu límite es solo el punto de partida.</p>
+
+            <div class="about-text">
+              <p>Creemos que el entrenamiento es mucho más que levantar peso: es una forma de construir disciplina, confianza y carácter. Cada sesión es una oportunidad para superar al que fuiste ayer.</p>
+              <p>Nuestra filosofía se basa en la constancia y en el trabajo bien hecho. Acompañamos a cada persona con un método claro, un plan adaptado y un seguimiento real, porque los resultados llegan cuando el esfuerzo tiene dirección.</p>
+              <p>Aquí no hay atajos, hay transformación. Un espacio donde la motivación se contagia y donde cada meta alcanzada se convierte en el comienzo de la siguiente.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tres pilares -->
+        <ul class="cards-grid cards-grid--3 about-features" role="list">
+          <li class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="7" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 20v-1.5A5.5 5.5 0 0 1 10.5 13h3a5.5 5.5 0 0 1 5.5 5.5V20"/></svg>
+            </span>
+            <h3 class="card-title">Entrenamiento personalizado</h3>
+            <p class="card-text">Planes diseñados a tu medida según tu nivel, tu objetivo y tu ritmo de vida. Nada de fórmulas genéricas.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M6 21v-6m4 6V9m4 12v-9m4 9V6"/></svg>
+            </span>
+            <h3 class="card-title">Resultados medibles</h3>
+            <p class="card-text">Seguimiento de tu progreso con métricas claras para que veas, semana a semana, cómo avanzas.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28"><circle cx="8" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="16" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3.5 19v-1a4 4 0 0 1 4-4h1m11.5 5v-1a4 4 0 0 0-4-4h-1"/></svg>
+            </span>
+            <h3 class="card-title">Comunidad y motivación</h3>
+            <p class="card-text">Un entorno que te empuja a seguir. Entrenas rodeado de gente que persigue, como tú, su mejor versión.</p>
+          </li>
+        </ul>
+
+        <!-- Cifras -->
+        <ul class="stats about-stats reveal" role="list">
+          <li class="stat">
+            <span class="stat-number" data-count-to="500" data-suffix="+">0</span>
+            <span class="stat-label">clientes activos</span>
+          </li>
+          <li class="stat">
+            <span class="stat-number" data-count-to="10" data-suffix="+">0</span>
+            <span class="stat-label">años de experiencia</span>
+          </li>
+          <li class="stat">
+            <span class="stat-number" data-count-to="20" data-suffix="+">0</span>
+            <span class="stat-label">entrenadores certificados</span>
+          </li>
+          <li class="stat">
+            <span class="stat-number" data-count-to="98" data-suffix="%">0</span>
+            <span class="stat-label">de satisfacción</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ PROGRAMAS =========================== -->
+    <section class="section" id="programas" aria-labelledby="programas-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Entrenamiento</p>
+          <h2 class="section-title" id="programas-title">Nuestros programas</h2>
+          <p class="section-lead">Elige tu disciplina y empieza a entrenar con un método que te lleva más allá.</p>
+        </header>
+
+        <ul class="program-grid" role="list">
+          <li class="program-card reveal">
+            <figure class="program-media">
+              <img src="assets/images/programa-musculacion.jpg" alt="Persona realizando un ejercicio de musculación con mancuernas" width="600" height="720" loading="lazy" decoding="async" />
+            </figure>
+            <div class="program-content">
+              <h3 class="program-title">Musculación</h3>
+              <p class="program-desc">Fuerza y volumen</p>
+            </div>
+          </li>
+
+          <li class="program-card reveal">
+            <figure class="program-media">
+              <img src="assets/images/programa-cross-training.jpg" alt="Entrenamiento de cross training con cuerdas de batida" width="600" height="720" loading="lazy" decoding="async" />
+            </figure>
+            <div class="program-content">
+              <h3 class="program-title">Cross Training</h3>
+              <p class="program-desc">Alta intensidad</p>
+            </div>
+          </li>
+
+          <li class="program-card reveal">
+            <figure class="program-media">
+              <img src="assets/images/programa-yoga.jpg" alt="Persona en una postura de yoga sobre una esterilla" width="600" height="720" loading="lazy" decoding="async" />
+            </figure>
+            <div class="program-content">
+              <h3 class="program-title">Yoga</h3>
+              <p class="program-desc">Flexibilidad y equilibrio</p>
+            </div>
+          </li>
+
+          <li class="program-card reveal">
+            <figure class="program-media">
+              <img src="assets/images/programa-pilates.jpg" alt="Ejercicio de pilates de trabajo de core" width="600" height="720" loading="lazy" decoding="async" />
+            </figure>
+            <div class="program-content">
+              <h3 class="program-title">Pilates</h3>
+              <p class="program-desc">Core y postura</p>
+            </div>
+          </li>
+
+          <li class="program-card reveal">
+            <figure class="program-media">
+              <img src="assets/images/programa-personal-training.jpg" alt="Entrenador personal guiando una sesión individual" width="600" height="720" loading="lazy" decoding="async" />
+            </figure>
+            <div class="program-content">
+              <h3 class="program-title">Personal Training</h3>
+              <p class="program-desc">Entrenamiento personalizado</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="program-cta reveal">
+          <a class="btn btn--primary" href="#tarifas" data-scroll-target="#tarifas">Empieza tu entrenamiento</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== INSTALACIONES ========================= -->
+    <section class="section section--alt" id="instalaciones" aria-labelledby="instalaciones-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">El espacio</p>
+          <h2 class="section-title" id="instalaciones-title">Nuestras instalaciones</h2>
+          <p class="section-lead">Un entorno diseñado al detalle para que entrenar sea una experiencia premium de principio a fin.</p>
+        </header>
+
+        <ul class="gallery-grid" role="list">
+          <li class="gallery-item gallery-item--feat reveal">
+            <figure>
+              <img class="gallery-img" src="assets/images/instalacion-sala-pesas.jpg" alt="Sala de pesas con peso libre y máquinas de musculación" width="900" height="900" loading="lazy" decoding="async" />
+              <button class="gallery-trigger" type="button" aria-label="Ampliar imagen: Sala de pesas" data-full="assets/images/instalacion-sala-pesas.jpg" data-caption="Sala de pesas">
+                <span class="gallery-zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 16l4 4M11 8.5v5M8.5 11h5"/></svg>
+                </span>
+              </button>
+              <figcaption class="gallery-content">
+                <h3 class="gallery-title">Sala de pesas</h3>
+                <p class="gallery-desc">Peso libre y máquinas de última generación.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="gallery-item gallery-item--cardio reveal">
+            <figure>
+              <img class="gallery-img" src="assets/images/instalacion-cardio.jpg" alt="Zona de cardio con cintas de correr y bicicletas estáticas" width="900" height="600" loading="lazy" decoding="async" />
+              <button class="gallery-trigger" type="button" aria-label="Ampliar imagen: Cardio" data-full="assets/images/instalacion-cardio.jpg" data-caption="Cardio">
+                <span class="gallery-zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 16l4 4M11 8.5v5M8.5 11h5"/></svg>
+                </span>
+              </button>
+              <figcaption class="gallery-content">
+                <h3 class="gallery-title">Cardio</h3>
+                <p class="gallery-desc">Cintas, elípticas y bicis de última generación.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="gallery-item gallery-item--vest reveal">
+            <figure>
+              <img class="gallery-img" src="assets/images/instalacion-vestuarios.jpg" alt="Vestuarios premium con taquillas y zona de ducha" width="600" height="600" loading="lazy" decoding="async" />
+              <button class="gallery-trigger" type="button" aria-label="Ampliar imagen: Vestuarios" data-full="assets/images/instalacion-vestuarios.jpg" data-caption="Vestuarios">
+                <span class="gallery-zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 16l4 4M11 8.5v5M8.5 11h5"/></svg>
+                </span>
+              </button>
+              <figcaption class="gallery-content">
+                <h3 class="gallery-title">Vestuarios</h3>
+                <p class="gallery-desc">Espacios amplios, limpios y con sauna.</p>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="gallery-item gallery-item--func reveal">
+            <figure>
+              <img class="gallery-img" src="assets/images/instalacion-zona-funcional.jpg" alt="Zona funcional con suelo técnico, kettlebells y cajones de salto" width="600" height="600" loading="lazy" decoding="async" />
+              <button class="gallery-trigger" type="button" aria-label="Ampliar imagen: Zona funcional" data-full="assets/images/instalacion-zona-funcional.jpg" data-caption="Zona funcional">
+                <span class="gallery-zoom" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M16 16l4 4M11 8.5v5M8.5 11h5"/></svg>
+                </span>
+              </button>
+              <figcaption class="gallery-content">
+                <h3 class="gallery-title">Zona funcional</h3>
+                <p class="gallery-desc">Suelo técnico para entrenamiento libre.</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+
+        <div class="program-cta reveal">
+          <a class="btn btn--primary" href="#contacto" data-scroll-target="#contacto">Descubre nuestras instalaciones</a>
+        </div>
+      </div>
+
+      <!-- Lightbox (se abre al pulsar una imagen) -->
+      <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada de la instalación">
+        <button class="lightbox-close" type="button" aria-label="Cerrar imagen ampliada">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <figure class="lightbox-figure">
+          <img class="lightbox-img" src="" alt="" />
+          <figcaption class="lightbox-caption"></figcaption>
+        </figure>
+      </dialog>
+    </section>
+
+    <!-- =========================== ENTRENADORES ========================= -->
+    <section class="section" id="entrenadores" aria-labelledby="entrenadores-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">El equipo</p>
+          <h2 class="section-title" id="entrenadores-title">Entrenadores que te empujan</h2>
+          <p class="section-lead">Profesionales certificados que convierten tu esfuerzo en resultados medibles.</p>
+        </header>
+
+        <ul class="cards-grid cards-grid--3" role="list">
+          <li class="trainer reveal">
+            <figure class="trainer-media">
+              <img src="assets/images/entrenador-1.jpg" alt="Retrato del entrenador personal Marcos Ruiz" width="480" height="560" loading="lazy" decoding="async" />
+            </figure>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Marcos Ruiz</h3>
+              <p class="trainer-role">Fuerza &amp; Powerlifting</p>
+            </div>
+          </li>
+          <li class="trainer reveal">
+            <figure class="trainer-media">
+              <img src="assets/images/entrenador-2.jpg" alt="Retrato de la entrenadora Laura Méndez" width="480" height="560" loading="lazy" decoding="async" />
+            </figure>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Laura Méndez</h3>
+              <p class="trainer-role">HIIT &amp; Funcional</p>
+            </div>
+          </li>
+          <li class="trainer reveal">
+            <figure class="trainer-media">
+              <img src="assets/images/entrenador-3.jpg" alt="Retrato del entrenador Iván Torres" width="480" height="560" loading="lazy" decoding="async" />
+            </figure>
+            <div class="trainer-body">
+              <h3 class="trainer-name">Iván Torres</h3>
+              <p class="trainer-role">Hipertrofia &amp; Nutrición</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================== TARIFAS =========================== -->
+    <section class="section section--alt" id="tarifas" aria-labelledby="tarifas-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Planes</p>
+          <h2 class="section-title" id="tarifas-title">Tarifas sin permanencia</h2>
+          <p class="section-lead">Elige el plan que mejor encaja contigo. Sin matrícula y sin sorpresas.</p>
+        </header>
+
+        <!-- Sustituye "XX" por el precio real de cada plan -->
+        <ul class="pricing" role="list">
+          <li class="plan reveal">
+            <h3 class="plan-name">Básico</h3>
+            <p class="plan-price"><span class="plan-currency">€</span><span class="plan-amount">XX</span><span class="plan-period">/ mes</span></p>
+            <ul class="plan-features" role="list">
+              <li>Acceso a sala de musculación</li>
+              <li>Zona de cardio y peso libre</li>
+              <li>Horario completo</li>
+              <li>App de seguimiento del progreso</li>
+            </ul>
+            <a class="btn btn--outline plan-cta" href="https://wa.me/34600000000?text=Hola%2C%20quiero%20empezar%20con%20el%20plan%20B%C3%A1sico" target="_blank" rel="noopener noreferrer" aria-label="Empezar ahora con el plan Básico">Empezar ahora</a>
+          </li>
+
+          <li class="plan plan--featured reveal">
+            <span class="plan-badge">Más popular</span>
+            <h3 class="plan-name">Premium</h3>
+            <p class="plan-price"><span class="plan-currency">€</span><span class="plan-amount">XX</span><span class="plan-period">/ mes</span></p>
+            <ul class="plan-features" role="list">
+              <li>Todo lo del plan Básico</li>
+              <li>Clases dirigidas ilimitadas</li>
+              <li>1 sesión mensual con entrenador</li>
+              <li>Acceso a sauna y vestuarios premium</li>
+              <li>Invitación para un amigo cada mes</li>
+            </ul>
+            <a class="btn btn--primary plan-cta" href="https://wa.me/34600000000?text=Hola%2C%20quiero%20empezar%20con%20el%20plan%20Premium" target="_blank" rel="noopener noreferrer" aria-label="Empezar ahora con el plan Premium">Empezar ahora</a>
+          </li>
+
+          <li class="plan reveal">
+            <h3 class="plan-name">Personal Training</h3>
+            <p class="plan-price"><span class="plan-currency">€</span><span class="plan-amount">XX</span><span class="plan-period">/ mes</span></p>
+            <ul class="plan-features" role="list">
+              <li>Todo lo del plan Premium</li>
+              <li>Entrenador personal dedicado</li>
+              <li>Plan de entrenamiento a tu medida</li>
+              <li>Plan de nutrición personalizado</li>
+              <li>Seguimiento semanal de resultados</li>
+            </ul>
+            <a class="btn btn--outline plan-cta" href="https://wa.me/34600000000?text=Hola%2C%20quiero%20empezar%20con%20el%20plan%20Personal%20Training" target="_blank" rel="noopener noreferrer" aria-label="Empezar ahora con el plan Personal Training">Empezar ahora</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================ TESTIMONIOS ========================= -->
+    <section class="section" id="testimonios" aria-labelledby="testimonios-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Resultados reales</p>
+          <h2 class="section-title" id="testimonios-title">Lo que dicen nuestros socios</h2>
+        </header>
+
+        <ul class="cards-grid cards-grid--3" role="list">
+          <li class="quote reveal">
+            <blockquote>
+              <p>«En seis meses he ganado fuerza como nunca. El acompañamiento de los entrenadores marca la diferencia.»</p>
+              <footer class="quote-author">Sara G. <span>Socia desde 2024</span></footer>
+            </blockquote>
+          </li>
+          <li class="quote reveal">
+            <blockquote>
+              <p>«Las instalaciones son impecables y siempre encuentro máquina libre. El mejor gimnasio de la zona.»</p>
+              <footer class="quote-author">David P. <span>Socio desde 2023</span></footer>
+            </blockquote>
+          </li>
+          <li class="quote reveal">
+            <blockquote>
+              <p>«El plan Élite cambió mis hábitos por completo. Entreno con cabeza y los resultados se notan.»</p>
+              <footer class="quote-author">Nuria L. <span>Socia desde 2025</span></footer>
+            </blockquote>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================= CONTACTO =========================== -->
+    <section class="section section--alt" id="contacto" aria-labelledby="contacto-title">
+      <div class="container contact-grid">
+        <!-- IZQUIERDA: datos de contacto + CTA principal de WhatsApp -->
+        <div class="contact-info reveal">
+          <p class="eyebrow">Contacto</p>
+          <h2 class="section-title" id="contacto-title">¿Hablamos?</h2>
+          <p class="section-lead">Resuelve tus dudas y reserva tu primera sesión. Te respondemos al momento por WhatsApp.</p>
+
+          <ul class="contact-cards" role="list">
+            <li>
+              <div class="contact-card">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-6.4 7-11a7 7 0 0 0-14 0c0 4.6 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+                </span>
+                <span class="contact-card-text">
+                  <span class="contact-card-label">Dirección</span>
+                  <span class="contact-card-value">Calle de Ejemplo 123, 28000 Madrid</span>
+                </span>
+              </div>
+            </li>
+            <li>
+              <a class="contact-card" href="tel:+34600000000" aria-label="Llamar al +34 600 000 000">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 5c0 8.3 6.7 15 15 15v-3.5l-4-1.5-2 2a12 12 0 0 1-5-5l2-2L7.5 5H4Z"/></svg>
+                </span>
+                <span class="contact-card-text">
+                  <span class="contact-card-label">Teléfono</span>
+                  <span class="contact-card-value">+34 600 000 000</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a class="contact-card" href="mailto:hola@limitegym.es" aria-label="Enviar email a hola@limitegym.es">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m4 7 8 6 8-6"/></svg>
+                </span>
+                <span class="contact-card-text">
+                  <span class="contact-card-label">Email</span>
+                  <span class="contact-card-value">hola@limitegym.es</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- CTA principal: WhatsApp (sustituye XXXXXXXXXXX por el número real) -->
+          <a class="btn contact-whatsapp" href="https://wa.me/XXXXXXXXXXX?text=Hola%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.02ZM12.05 20.15h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.69 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14-.01-.31-.01-.47-.01a.9.9 0 0 0-.65.31c-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.54.12.17 1.73 2.64 4.19 3.7.59.25 1.04.4 1.4.52.59.19 1.12.16 1.54.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/>
+            </svg>
+            Escríbenos por WhatsApp
+          </a>
+          <p class="contact-hours">Horario: L–V 6:30–23:00 · S–D 8:00–21:00</p>
+        </div>
+
+        <!-- DERECHA: mapa de ubicación (sustituye por el embed real de tu local) -->
+        <div class="contact-map reveal">
+          <iframe
+            title="Mapa con la ubicación del gimnasio"
+            src="https://www.google.com/maps?q=Calle%20Ejemplo%20123,%20Madrid&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="footer-logo" src="assets/logo/logo.jpg" alt="Logotipo de LÍMITE GYM" width="150" height="45" loading="lazy" decoding="async" />
+        <p class="footer-tagline">Tu mejor versión empieza hoy.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Enlaces rápidos del pie">
+        <h2 class="footer-heading">Explora</h2>
+        <ul role="list">
+          <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
+          <li><a href="#programas">Programas</a></li>
+          <li><a href="#instalaciones">Instalaciones</a></li>
+          <li><a href="#tarifas">Tarifas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h2 class="footer-heading">Contacto</h2>
+        <ul class="footer-contact-list" role="list">
+          <li>Calle de Ejemplo 123,<br />28000 Madrid</li>
+          <li><a href="tel:+34600000000">+34 600 000 000</a></li>
+          <li><a href="mailto:hola@limitegym.es">hola@limitegym.es</a></li>
+          <li>L–V 6:30–23:00 · S–D 8:00–21:00</li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h2 class="footer-heading">Síguenos</h2>
+        <div class="nav-social">
+          <a class="icon-link" href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.02ZM12.05 20.15a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.11.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 4.54 0 8.23 3.69 8.23 8.23 0 4.54-3.69 8.24-8.24 8.24Z"/></svg>
+          </a>
+          <a class="icon-link" href="https://instagram.com/limitegym" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Instagram">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 2.8h10A4.2 4.2 0 0 1 21.2 7v10A4.2 4.2 0 0 1 17 21.2H7A4.2 4.2 0 0 1 2.8 17V7A4.2 4.2 0 0 1 7 2.8Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>
+          </a>
+          <a class="icon-link" href="https://facebook.com/limitegym" target="_blank" rel="noopener noreferrer" aria-label="Síguenos en Facebook">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" d="M14 9V7.2c0-.83.2-1.25 1.45-1.25H17V3.14C16.6 3.1 15.72 3 14.7 3 12.42 3 10.9 4.38 10.9 6.9V9H8.4v3h2.5v9H14v-9h2.5l.4-3H14Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="year">2026</span> LÍMITE GYM. Todos los derechos reservados.</p>
+        <nav class="footer-legal" aria-label="Enlaces legales">
+          <a href="#">Aviso legal</a>
+          <a href="#">Privacidad</a>
+          <a href="#" id="openCookiePrefs">Cookies</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== BANNER DE COOKIES (RGPD) ===================== -->
+  <div class="cookie-banner" id="cookieBanner" role="region" aria-label="Aviso de cookies">
+    <div class="container cookie-banner-inner">
+      <p class="cookie-text">
+        Este sitio web utiliza cookies para mejorar tu experiencia de navegación, analizar el tráfico y mostrarte contenido personalizado. Puedes aceptar todas las cookies, rechazarlas o configurar tus preferencias.
+        <a href="#" class="cookie-link">Más información</a>.
+      </p>
+      <div class="cookie-actions">
+        <button class="btn btn--ghost" type="button" id="cookieConfigure">Configurar preferencias</button>
+        <button class="btn btn--outline" type="button" id="cookieReject">Rechazar</button>
+        <button class="btn btn--primary" type="button" id="cookieAccept">Aceptar todas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de preferencias de cookies -->
+  <dialog class="cookie-modal" id="cookieModal" aria-labelledby="cookieModalTitle">
+    <div class="cookie-modal-inner">
+      <div class="cookie-modal-head">
+        <h2 id="cookieModalTitle">Preferencias de cookies</h2>
+        <button class="cookie-modal-close" type="button" id="cookieModalClose" aria-label="Cerrar preferencias de cookies">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+
+      <p class="cookie-modal-intro">Gestiona qué tipos de cookies quieres permitir. Las cookies necesarias no se pueden desactivar porque son imprescindibles para el funcionamiento del sitio.</p>
+
+      <ul class="cookie-options" role="list">
+        <li class="cookie-option">
+          <span class="cookie-option-info">
+            <span class="cookie-option-title">Cookies necesarias</span>
+            <span class="cookie-option-desc">Imprescindibles para el funcionamiento básico del sitio. Siempre activas.</span>
+          </span>
+          <label class="switch">
+            <input type="checkbox" role="switch" checked disabled aria-label="Cookies necesarias (siempre activas)" />
+            <span class="switch-slider" aria-hidden="true"></span>
+          </label>
+        </li>
+
+        <li class="cookie-option">
+          <span class="cookie-option-info">
+            <span class="cookie-option-title">Cookies analíticas</span>
+            <span class="cookie-option-desc">Nos ayudan a entender cómo se usa el sitio para mejorarlo.</span>
+          </span>
+          <label class="switch">
+            <input type="checkbox" role="switch" id="cookieAnalytics" aria-label="Cookies analíticas" />
+            <span class="switch-slider" aria-hidden="true"></span>
+          </label>
+        </li>
+
+        <li class="cookie-option">
+          <span class="cookie-option-info">
+            <span class="cookie-option-title">Cookies de marketing</span>
+            <span class="cookie-option-desc">Se utilizan para mostrarte anuncios relevantes.</span>
+          </span>
+          <label class="switch">
+            <input type="checkbox" role="switch" id="cookieMarketing" aria-label="Cookies de marketing" />
+            <span class="switch-slider" aria-hidden="true"></span>
+          </label>
+        </li>
+      </ul>
+
+      <div class="cookie-modal-actions">
+        <button class="btn btn--outline" type="button" id="cookieCancel">Cancelar</button>
+        <button class="btn btn--primary" type="button" id="cookieSave">Guardar preferencias</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
