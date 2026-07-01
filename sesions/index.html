@@ -204,33 +204,16 @@
         <h1 class="hero-headline" id="hero-title">
           <span class="visually-hidden">Sin Límites</span>
           <span class="hero-mask-wrap" aria-hidden="true">
-            <!-- Capa 1 (respaldo): texto con degradado + definición de la máscara.
-                 Visible a través de las letras si el vídeo no carga. -->
-            <svg class="hero-art" viewBox="0 0 1000 380" preserveAspectRatio="xMidYMid meet">
-              <defs>
-                <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#ff3551" />
-                  <stop offset="50%" stop-color="#E4002B" />
-                  <stop offset="100%" stop-color="#9a9a9a" />
-                </linearGradient>
-                <mask id="heroMask">
-                  <rect x="0" y="0" width="1000" height="380" fill="#fff" />
-                  <text class="hero-mask-text" x="500" y="190" text-anchor="middle" dominant-baseline="central" textLength="940" lengthAdjust="spacingAndGlyphs" fill="#000">SIN LÍMITES</text>
-                </mask>
-              </defs>
-              <text class="hero-mask-text" x="500" y="190" text-anchor="middle" dominant-baseline="central" textLength="940" lengthAdjust="spacingAndGlyphs" fill="url(#heroGrad)">SIN LÍMITES</text>
-            </svg>
+            <!-- Respaldo con degradado: solo se ve si el navegador no soporta máscaras
+                 o si el vídeo falla. Nunca una caja ni un marco. -->
+            <span class="hero-fallback">SIN LÍMITES</span>
 
-            <!-- Capa 2: vídeo (autoplay/muted/loop/playsinline) -->
+            <!-- El vídeo se recorta a la forma EXACTA de "SIN LÍMITES" con una máscara SVG
+                 (contornos de la fuente incrustados). Fuera de las letras es 100% transparente:
+                 sin rectángulo, sin marco, sin capa de fondo. -->
             <video class="hero-video" autoplay muted loop playsinline preload="auto">
               <source src="assets/video/hero.mp4" type="video/mp4" />
             </video>
-
-            <!-- Capa 3: recorte. Rectángulo con las letras "agujereadas":
-                 el vídeo solo se ve dentro del texto; el resto coincide con el fondo. -->
-            <svg class="hero-art hero-art--cut" viewBox="0 0 1000 380" preserveAspectRatio="xMidYMid meet">
-              <rect x="0" y="0" width="1000" height="380" fill="#0A0A0A" mask="url(#heroMask)" />
-            </svg>
           </span>
         </h1>
 
